@@ -1,0 +1,14 @@
+.chon-anh{
+    text-align: center;
+    
+}
+#nhan{
+    text-align: center;
+    font-size: 70px;
+}
+#img{
+    max-width: 200px;
+}
+.them-anh{
+    display: block;
+}

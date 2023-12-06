@@ -1,0 +1,9 @@
+.isTrain {
+    cursor: no-drop;
+    background-color: rgb(5, 201, 5);
+}
+
+.isReTrain{
+    cursor: no-drop;
+    background-color: rgb(201, 5, 5);
+}

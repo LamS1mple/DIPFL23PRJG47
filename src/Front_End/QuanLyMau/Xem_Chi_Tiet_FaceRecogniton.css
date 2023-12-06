@@ -1,0 +1,19 @@
+
+p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.giua{
+    display: flex;
+    justify-content: space-around;
+}
+.search_tabel{
+}
+
+#imgMau2{
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 5px;
+    width: 250px;
+}

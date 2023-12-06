@@ -1,0 +1,31 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #CDFAD5;
+
+    height: 100%;
+    margin: 0 0 ;
+}
+button{
+    cursor: pointer;
+}
+
+.content{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+}
+.button{
+    border-radius: 10px;
+    margin: 0 20px;
+    padding: 50px 50px;
+    background-color: #FFCF96;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #F6FDC3;
+}

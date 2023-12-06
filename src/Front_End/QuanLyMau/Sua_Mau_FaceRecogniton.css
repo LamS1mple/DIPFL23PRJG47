@@ -1,0 +1,46 @@
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+button{
+    min-height: 30px;
+    min-width: 70px;
+}
+
+input[type="file"]::-webkit-file-upload-button{
+    width:200px ;
+    background-color: antiquewhite;
+    display: none;
+}
+input[type="file"]::before{
+    content: "Upload";
+    display: inline-block;
+    min-width: 70px;
+    text-align: center;
+    cursor: pointer;
+    background-color:#f0f0f0;
+    border-width: 2px;
+    border-style: outset;
+    border-color: black;
+    min-height: 30px;
+
+}
+.content1{
+    display: flex;
+    justify-content: space-around;
+}
+label{
+    display: block;
+}
+.chua-anh{
+    text-align: center;
+}
+#lable-ten{
+    display: inline;
+}
+
+.anh{
+    border-radius: 5px;
+    min-width: 200px;
+    max-width: 200px;
+}

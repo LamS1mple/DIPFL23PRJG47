@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recogniton</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Home/homeStyle.css">
+    <link rel="stylesheet" href="/QuanLyMau/Face_Recongniton_Style.css">
+
+    <style>
+        .isTrain {
+            background-color: rgb(5, 201, 5);
+        }
+        .bambam{
+            cursor: no-drop;
+        }
+    </style>
+</head>
+<body>
+    <a href="QuanLyModel.html">Back</a>
+    <h1 style="text-align: center;" id="tt"></h1>
+
+    <h1 style="text-align: center;" >Chọn để train</h1>
+    <div class="content custom_table">
+        <div class="search">
+            <label for="inp_name">Nhập tên</label>
+            <input type="text" name="inp_name">
+            <input type="submit" value="Tìm kiếm">
+        </div>
+        <div class="search_tabel ">
+            <table class="table table-hover table_width">
+                <thead>
+                  <tr>
+                    <th scope="col">STT</th>
+                    <th scope="col">Tên nhãn</th>
+                    <th scope="col">Chọn</th>
+                  </tr>
+                </thead>
+                <tbody id="addNhan">
+                </tbody>
+            </table>
+        </div>
+        <div >
+            
+                <button id="reTrain" >ReTrain</button>
+            
+        </div>
+        <div>
+            <button id="chonall">Chon tất cả</button>
+        </div>
+        <div>
+            <button id="xoaall">Xoa tất cả</button>
+        </div>
+    </div>
+    
+
+
+</body>
+<script src="ChonReTrain.js"></script>
+</html>

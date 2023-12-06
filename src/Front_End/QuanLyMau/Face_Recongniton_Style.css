@@ -1,0 +1,12 @@
+
+.custom_table{
+    text-align: center;
+    display: block;
+}
+.search_tabel{
+    text-align: center;
+}
+.table_width{
+    margin: 0 auto;
+    width: 70%;
+}
